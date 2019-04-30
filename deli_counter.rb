@@ -4,8 +4,8 @@ def line(current_line)
     "The line is currently empty."
   else
     line = "The line is currently:"
-    current_line.each_with_index do |ele|
-      line += "1. "
+    current_line.each_with_index do |ele, index|
+      line += " #{index+1}. #{ele}"
     end
   end
 end
