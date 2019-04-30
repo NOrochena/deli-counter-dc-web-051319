@@ -19,5 +19,7 @@ end
 def now_serving(current_line)
   if (current_line.count == 0)
     puts "There is nobody waiting to be served!"
+  else 
+    "Currently serving #{current_line[0]}"
   end
 end
