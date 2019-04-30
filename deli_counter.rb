@@ -15,3 +15,9 @@ def take_a_number(current_line, name)
   current_line.push(name)
   puts "Welcome, #{name}. You are number #{current_line.count} in line."
 end
+
+def now_serving(current_line)
+  if (current_line.count == 0)
+    puts "There is nobody waiting to be served!"
+  end
+end
