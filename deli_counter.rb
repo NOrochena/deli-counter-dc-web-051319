@@ -10,3 +10,7 @@ def line(current_line)
     puts line
   end
 end
+
+def take_a_number(current_line, name)
+  puts "Welcome, #{name}, you are number #{current_line.count +1} in line."
+end
