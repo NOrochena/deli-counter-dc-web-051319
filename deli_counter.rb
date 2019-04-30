@@ -7,5 +7,6 @@ def line(current_line)
     current_line.each_with_index do |ele, index|
       line += " #{index+1}. #{ele}"
     end
+    line
   end
 end
